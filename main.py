@@ -79,6 +79,8 @@ category_map = {
 
 }
 
+cat_data = None
+
 def allowed_file(filename):
     return '.' in filename and \
         filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -91,8 +93,8 @@ def index():
 def login():
     return render_template("quiz.html")
 
-@app.route('/dashboard', methods=['POST'])
-def dashboard():
+@app.route('/recommendation', methods=['POST'])
+def recommendation():
     form = request.form
     category_vec = [0,0,0,0,0]
 
@@ -140,7 +142,7 @@ def dashboard():
 
     with open("public/categories.json", "r") as jf:
         categories = json.load(jf)
-
+        global cat_data
         if user_category < 5:
             cat_data = categories[str(user_category)]
         else:
@@ -150,6 +152,22 @@ def dashboard():
 
 
     return render_template("recommendations.html", cat_data=cat_data)
+
+@app.route("/home")
+def home():
+    return render_template("recommendations.html", cat_data=cat_data)
+
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
+@app.route("/activity")
+def activity():
+    return render_template("activities.html")
+
+@app.route("/profile")
+def profile():
+    return render_template("profile.html")
 
 
 if __name__ == "__main__":

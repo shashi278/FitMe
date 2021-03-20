@@ -1,63 +1,63 @@
 {
     "1": {
         "activities": [
-            ["Community Gardening", "Join our community garden to grow fresh, organic food, while bonding with your local community", "/img/activitiesBG/gardening.webp"],
-            ["Food Sharing community", "What can be better than sharing a mean with a friend? Sharing a mean with a whole bunch of people!", ""]
+            ["Community Gardening", "Join our community garden to grow fresh, organic food, while bonding with your local community", "/img/activitiesBG/gardening_400x509.jpg"],
+            ["Food Sharing community", "What can be better than sharing a mean with a friend? Sharing a mean with a whole bunch of people!", "/img/activitiesBG/cooking_400x509.jpg"]
             ],
         "events":[
-            ["Visiting farmers market", "Go to farmers market to rediscover food. Buy healthy and fresh ingredients to make your meals nutricious and delicious", ""],
-            ["Joining a cooking event", "Reinvent your love for cooking while learning new recepies and getting to know others who share your passion", ""]
+            ["Visiting farmers market", "Go to farmers market to rediscover food. Buy healthy and fresh ingredients to make your meals nutricious and delicious", "/img/activitiesBG/farmers_market_400x509.png"],
+            ["Joining a cooking event", "Reinvent your love for cooking while learning new recepies and getting to know others who share your passion", "/img/activitiesBG/cooking_400x509.jpg"]
             ],
         "suggestions": [
-            ["Tips on how to start gardening", "Water, soil, sun and a bit of work. That is all it takes to grow your very first veggie.", ""],
-            ["Tips about how to balance nutrition", "If you want to be healthy remeber that balanced diet and regular meal times are the key.", ""]
+            ["Tips on how to start gardening", "Water, soil, sun and a bit of work. That is all it takes to grow your very first veggie.", "/img/activitiesBG/gardening_400x509.jpg"],
+            ["Tips about how to balance nutrition", "If you want to be healthy remeber that balanced diet and regular meal times are the key.", "/img/activitiesBG/farmers_market_400x509.png"]
             ]
     },
     "2" : {
         "activities": [
-            ["Join a gym", "To get the motivation to start moving regularily, join your local gym, find a workout buddy and start working out!", ""],
-            ["Get a personal trainer", "You are not sure how to achive best result adn which excercises suit you best? Get some help from a personal trainer.", ""],
-            ["Join running group", "", ""],
-            ["Vitaparkour", "Wnat to try something new and enjoy the outside at the same time? Why not Votaparkour!?", ""]
+            ["Join a gym", "To get the motivation to start moving regularily, join your local gym, find a workout buddy and start working out!", "/img/activitiesBG/home_gym_400x509.png"],
+            ["Get a personal trainer", "You are not sure how to achive best result and which excercises suit you best? Get some help from a personal trainer.", "/img/activitiesBG/groupSport_400x509.jpg"],
+            ["Join running group", "Join running group", "/img/activitiesBG/running_400x509.jpg"],
+            ["Vitaparkour", "Want to try something new and enjoy the outside at the same time? Why not Vitaparkour!?", "/img/activitiesBG/commute_bike_400x509.png"]
             ],
         "events":[
-            ["Join a marathon-prep group", "Need motivation to go out for run regularily? Join the team and run a marathon!", ""],
-            ["Join local triathlon", "So many different disciplines. You got to find something you'll be good at.", ""]
+            ["Join a marathon-prep group", "Need motivation to go out for run regularily? Join the team and run a marathon!", "/img/activitiesBG/marathon_image_400x509.png"],
+            ["Join local triathlon", "So many different disciplines. You got to find something you'll be good at.", "/img/activitiesBG/swimming_400x509.jpg"]
             ],
         "suggestions": [
-            ["Get nutrition tips", "If you want to be healthy remeber that balanced diet and regular meal times are the key.", ""],
-            ["Visit local store to purchase gym equipment", "Want to start working out from home? Simple equipment can help you achieve that in no time", ""]
+            ["Get nutrition tips", "If you want to be healthy remeber that balanced diet and regular meal times are the key.", "/img/activitiesBG/cooking_400x509.jpg"],
+            ["Visit local store to purchase gym equipment", "Want to start working out from home? Simple equipment can help you achieve that in no time", "/img/activitiesBG/home_gym_400x509.png"]
             ]
     } ,
     "3" : {
         "activities": [
-            ["Go for a hike", "Instead of sitting on your couch, go for a hike this weekend", ""],
-            ["Jogging", "There are so many events going on around you. Dont miss out and join your local jogger team!", ""],
-            ["Join a dog-walking group", "You and your dog are a great team! It can only get better if you invite your friend to join", ""],
-            ["Vitaparkour", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", ""]
+            ["Go for a hike", "Instead of sitting on your couch, go for a hike this weekend", "/img/activitiesBG/running_400x509.jpg"],
+            ["Jogging", "There are so many events going on around you. Dont miss out and join your local jogger team!", "/img/activitiesBG/walking_400x509.jpg"],
+            ["Join a dog-walking group", "You and your dog are a great team! It can only get better if you invite your friend to join", "/img/activitiesBG/dogWalking_400x509.jpg"],
+            ["Vitaparkour", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", "/img/activitiesBG/commute_bike_400x509.png"]
             ],
         "events":[
-            ["Join a local runners team", "Run run run. It is always more fun with a bunch of people!", ""],
-            ["Invite a friend for a walk with their pet", "You and your dog are a great team! It can only get better if you invite your friend to join", ""]
+            ["Join a local runners team", "Run run run. It is always more fun with a bunch of people!", "/img/activitiesBG/marathon_image_400x509.png"],
+            ["Invite a friend for a walk with their pet", "You and your dog are a great team! It can only get better if you invite your friend to join", "/img/activitiesBG/dogWalking_400x509.jpg"]
             ],
         "suggestions": [
-            ["Discover our guide for bird watchers", "Birdwatching is something you always were interested in but didn know how to approach. We got you covered.", ""],
-            ["Read our hiking tips", "Dont know where to start your journey with hiking? read our 10 tips on how to get started.", ""]
+            ["Discover our guide for bird watchers", "Birdwatching is something you always were interested in but didn know how to approach. We got you covered.", "/img/activitiesBG/pr-sample23.jpg"],
+            ["Read our hiking tips", "Dont know where to start your journey with hiking? read our 10 tips on how to get started.", "/img/activitiesBG/commute_bike_400x509.png"]
             ]
     },
     "4" : {
         "activities": [
-            ["Play PokemonGO", "Go out and run around searching for Pokemons. Its activity and a game", ""],
-            ["Geocaching", "Why not try something new? Discover Geocaching.", ""],
-            ["Do housechores for extra points", "Need to do some housechores but kind find a motivation? We will give you point for each task you can finish", ""]
+            ["Play PokemonGO", "Go out and run around searching for Pokemons. Its activity and a game", "/img/activitiesBG/pr-sample23.jpg"],
+            ["Geocaching", "Why not try something new? Discover Geocaching.", "/img/activitiesBG/geocaching_400x509.png"],
+            ["Do housechores for extra points", "Need to do some housechores but kind find a motivation? We will give you point for each task you can finish", "/img/activitiesBG/pr-sample23.jpg"]
             ],
         "events":[
-            ["Join a local sports team", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", ""],
-            ["Sign up for a volleyball tournament", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", ""]
+            ["Join a local sports team", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", "/img/activitiesBG/groupSport_400x509.jpg"],
+            ["Sign up for a volleyball tournament", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", "/img/activitiesBG/pr-sample23.jpg"]
             ],
         "suggestions": [
-            ["Change your daily commute to cycling", "Instead of taking a bus to work or school, switch to your bike.", ""],
-            ["See our suggestions for events in the area", "There are so many events going on around you. Dont miss out!", ""]
+            ["Change your daily commute to cycling", "Instead of taking a bus to work or school, switch to your bike.", "/img/activitiesBG/commute_bike_400x509.png"],
+            ["See our suggestions for events in the area", "There are so many events going on around you. Dont miss out!", "/img/activitiesBG/pr-sample23.jpg"]
             ]
     }
 
