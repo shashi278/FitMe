@@ -149,7 +149,7 @@ def dashboard():
         
 
 
-    return render_template("recommendations.html", {"cat_data": cat_data})
+    return render_template("recommendations.html", cat_data=cat_data)
 
 
 if __name__ == "__main__":

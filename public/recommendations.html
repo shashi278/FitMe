@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Blank Page - HackInTouch</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/News-Cards.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/fonts/fontawesome5-overrides.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/Contact-Form-Clean.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/News-Cards.css') }}">
 </head>
 
 <body id="page-top">
@@ -54,7 +54,7 @@
 
                         {% for each in cat_data.activities %}
                           <figure class="snip1527">
-                            <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+                            <div class="image"><img src="{{ url_for('static', filename='/img/activitiesBG/commute_bike_400x509.png') }}" alt="pr-sample23" /></div>
                             <figcaption>
                               
                               <h3>{{ each[0] }}</h3>
@@ -65,65 +65,54 @@
                             </figcaption>
                             <a href="#"></a>
                           </figure>
+                        {% endfor %}
 
                         </div>
                     </div>
                     <h3 class="text-dark mb-1" style="font-size: 24px;margin-top: 23px;">Events</h3>
                     <div class="col">
                         <div class="row">
-                        <figure class="snip1527">
-                          <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
-                          <figcaption>
-                            <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
-                            <h3>The World Ended Yesterday</h3>
-                            <p>
 
-                              You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
-                            </p>
-                          </figcaption>
-                          <a href="#"></a>
-                        </figure>
+                        {% for each in cat_data.events %}
+                          <figure class="snip1527">
+                            <div class="image"><img src="{{ url_for('static', filename='/img/activitiesBG/dogWalking_400x509.jpg') }}" alt="pr-sample23" /></div>
+                            <figcaption>
+                              <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+                              <h3>{{ each[0] }}</h3>
+                              <p>
+
+                                You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                              </p>
+                            </figcaption>
+                            <a href="#"></a>
+                          </figure>
+                        {% endfor %}
+
                       </div>
                     </div>
                     <h3 class="text-dark mb-1" style="font-size: 24px;margin-top: 23px;">Suggestions</h3>
                     <div class="col">
-                        <div class="row"><figure class="snip1527">
-  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
-  <figcaption>
-    
-    <h3>The World Ended Yesterday</h3>
-    <p>
+                        <div class="row">
 
-      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
-    </p>
-  </figcaption>
-  <a href="#"></a>
-</figure>
-<figure class="snip1527">
-  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
-  <figcaption>
-    
-    <h3>An Abstract Post Heading</h3>
-    <p>
+                        {% for each in cat_data.suggestions %}
+                          <figure class="snip1527">
+                            <div class="image"><img src="{{ url_for('static', filename='/img/activitiesBG/cooking_400x509.jpg') }}" alt="pr-sample23" /></div>
+                            <figcaption>
+                              
+                              <h3>{{ each[0] }}</h3>
+                              <p>
 
-      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
-    </p>
-  </figcaption>
-  <a href="#"></a>
-</figure>
-<figure class="snip1527">
-  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
-  <figcaption>
-    
-    <h3>Down with this sort of thing</h3>
-    <p>
+                                You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                              </p>
+                            </figcaption>
+                            <a href="#"></a>
+                          </figure>
+                        {% endfor %}
 
-      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
-    </p>
-  </figcaption>
-  <a href="#"></a>
-</figure></div>
+                      </div>
                     </div>
+                  {% endif %}
+                
                 </div>
             </div>
             <footer class="bg-white sticky-footer">
@@ -134,8 +123,8 @@
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="{{ url_for('static', filename='/js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='/js/theme.js') }}"></script>
 </body>
 
 </html>
