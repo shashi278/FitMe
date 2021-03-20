@@ -1,63 +1,63 @@
 {
     "1": {
         "activities": [
-            ["Community Gardening", "", "/img/activitiesBG/gardening.webp"],
-            ["Food Sharing community", "", ""]
+            ["Community Gardening", "Join our community garden to grow fresh, organic food, while bonding with your local community", "/img/activitiesBG/gardening.webp"],
+            ["Food Sharing community", "What can be better than sharing a mean with a friend? Sharing a mean with a whole bunch of people!", ""]
             ],
         "events":[
-            ["Visiting farmers market", "", ""],
-            ["Joining a cooking event", "", ""]
+            ["Visiting farmers market", "Go to farmers market to rediscover food. Buy healthy and fresh ingredients to make your meals nutricious and delicious", ""],
+            ["Joining a cooking event", "Reinvent your love for cooking while learning new recepies and getting to know others who share your passion", ""]
             ],
         "suggestions": [
-            ["Tips on how to start gardening", "", ""],
-            ["Tips about how to balanca nutrition", "", ""]
+            ["Tips on how to start gardening", "Water, soil, sun and a bit of work. That is all it takes to grow your very first veggie.", ""],
+            ["Tips about how to balance nutrition", "If you want to be healthy remeber that balanced diet and regular meal times are the key.", ""]
             ]
     },
     "2" : {
         "activities": [
-            ["Join a gym", "", ""],
-            ["Get a personal trainer", "", ""],
+            ["Join a gym", "To get the motivation to start moving regularily, join your local gym, find a workout buddy and start working out!", ""],
+            ["Get a personal trainer", "You are not sure how to achive best result adn which excercises suit you best? Get some help from a personal trainer.", ""],
             ["Join running group", "", ""],
-            ["Vitaparkour", "", ""]
+            ["Vitaparkour", "Wnat to try something new and enjoy the outside at the same time? Why not Votaparkour!?", ""]
             ],
         "events":[
-            ["Join a marathon-preo group", "", ""],
-            ["Join local triathlon", "", ""]
+            ["Join a marathon-prep group", "Need motivation to go out for run regularily? Join the team and run a marathon!", ""],
+            ["Join local triathlon", "So many different disciplines. You got to find something you'll be good at.", ""]
             ],
         "suggestions": [
-            ["Get nutrition tips", "", ""],
-            ["Visit local store to purchase gym equipment", "", ""]
+            ["Get nutrition tips", "If you want to be healthy remeber that balanced diet and regular meal times are the key.", ""],
+            ["Visit local store to purchase gym equipment", "Want to start working out from home? Simple equipment can help you achieve that in no time", ""]
             ]
     } ,
     "3" : {
         "activities": [
-            ["Go for a hike", "", ""],
-            ["Jogging", "", ""],
-            ["Join a dog-walking group", "", ""],
-            ["Vitaparkour", "", ""]
+            ["Go for a hike", "Instead of sitting on your couch, go for a hike this weekend", ""],
+            ["Jogging", "There are so many events going on around you. Dont miss out and join your local jogger team!", ""],
+            ["Join a dog-walking group", "You and your dog are a great team! It can only get better if you invite your friend to join", ""],
+            ["Vitaparkour", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", ""]
             ],
         "events":[
-            ["Join a local runners team", "", ""],
-            ["Invite a friend for a walk with their pet", "", ""]
+            ["Join a local runners team", "Run run run. It is always more fun with a bunch of people!", ""],
+            ["Invite a friend for a walk with their pet", "You and your dog are a great team! It can only get better if you invite your friend to join", ""]
             ],
         "suggestions": [
-            ["Discover our guide for bird watchers", "", ""],
-            ["Read our hiking tips", "", ""]
+            ["Discover our guide for bird watchers", "Birdwatching is something you always were interested in but didn know how to approach. We got you covered.", ""],
+            ["Read our hiking tips", "Dont know where to start your journey with hiking? read our 10 tips on how to get started.", ""]
             ]
     },
     "4" : {
         "activities": [
-            ["Play PokemonGO", "", ""],
-            ["Geocaching", "", ""],
-            ["Do housechores for extra points", "", ""]
+            ["Play PokemonGO", "Go out and run around searching for Pokemons. Its activity and a game", ""],
+            ["Geocaching", "Why not try something new? Discover Geocaching.", ""],
+            ["Do housechores for extra points", "Need to do some housechores but kind find a motivation? We will give you point for each task you can finish", ""]
             ],
         "events":[
-            ["Join a local sports team", "", ""],
-            ["Sign up for a volleyball tournament", "", ""]
+            ["Join a local sports team", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", ""],
+            ["Sign up for a volleyball tournament", "It is always more fun to start a new challange with people around you. Join your local sports team and enjoy!", ""]
             ],
         "suggestions": [
-            ["Change your daily commute to cycling", "", ""],
-            ["See our suggestions for events in the area", "", ""]
+            ["Change your daily commute to cycling", "Instead of taking a bus to work or school, switch to your bike.", ""],
+            ["See our suggestions for events in the area", "There are so many events going on around you. Dont miss out!", ""]
             ]
     }
 
