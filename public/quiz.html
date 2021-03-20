@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Quick Survey - FitMe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/fonts/fontawesome5-overrides.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/Contact-Form-Clean.css') }}">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-1">Quick Survey</h3>
+                    <section class="contact-clean">
+                        <form action = "/dashboard" method = "post">
+                            <h2 class="text-center">Quick Survey</h2>
+                            <div class="mb-3"><label class="form-label">How active are you?(On the scale 1 to 5, 1 being not active and 5 being super active)</label>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="active" id="formCheck-9" value="1"><label class="form-check-label" for="formCheck-9">1</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="active" id="formCheck-11" value="2"><label class="form-check-label" for="formCheck-9">2</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="active" id="formCheck-10" value="3"><label class="form-check-label" for="formCheck-9">3</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="active" id="formCheck-101" value="4"><label class="form-check-label" for="formCheck-9">4</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="active" id="formCheck-120" value="5"><label class="form-check-label" for="formCheck-9">5</label></div>
+                            </div>
+                            <div class="mb-3"><label class="form-label">Hobbies</label>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" value="1" id="formCheck-15"><label class="form-check-label" for="formCheck-15">Running</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" id="formCheck-19" value="2"><label class="form-check-label" for="formCheck-15" >Cooking</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" id="formCheck-18" value="3"><label class="form-check-label" for="formCheck-15" value="2">Video Games</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" id="formCheck-17" value="4"><label class="form-check-label" for="formCheck-15" value="3">Outdoors</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" id="formCheck-16" value="5"><label class="form-check-label" for="formCheck-15" value="4">Team sports</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" id="formCheck-15" value="6"><label class="form-check-label" for="formCheck-15" value="5">Dancing</label></div>
+                                <!--div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" id="formCheck-21" value="6"><label class="form-check-label" for="formCheck-15" value="6">Gardening</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="hobbies" id="formCheck-20" value="7"><label class="form-check-label" for="formCheck-15" value="7">Movies</label></div-->
+                            </div>
+                            <div class="mb-3"><label class="form-label">Interests/values</label>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="values" id="formCheck-1" value="1"><label class="form-check-label" for="formCheck-1" >Sustainability</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="values" id="formCheck-3" value="2"><label class="form-check-label" for="formCheck-1" value="2">Family</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="values" id="formCheck-2" value="3"><label class="form-check-label" for="formCheck-1" value="3">Friends</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="values" id="formCheck-1" value="4"><label class="form-check-label" for="formCheck-1" value="4">Pets</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="values" id="formCheck-23" value="5"><label class="form-check-label" for="formCheck-1" value="5">Nature</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="values" id="formCheck-22" value="6"><label class="form-check-label" for="formCheck-1" value="6">Organic Lifestyle</label></div>
+                            </div>
+                            <div class="mb-3"><label class="form-label">Active hour</label>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="active_hour" id="formCheck-4" value="1"><label class="form-check-label" for="formCheck-4">Early Bird</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="active_hour" id="formCheck-4" value="2"><label class="form-check-label" for="formCheck-4">Night Owl</label></div>
+                            </div>
+                            <div class="mb-3"><label class="form-label">Favourite Cuisine</label>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="cuisine" id="formCheck-5" value="1"><label class="form-check-label" for="formCheck-1" >Traditional</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="cuisine" id="formCheck-6" value="2"><label class="form-check-label" for="formCheck-1" value="2">Italian</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="cuisine" id="formCheck-5" value="3"><label class="form-check-label" for="formCheck-1" value="3">Maxican</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" name="cuisine" id="formCheck-24" value="4"><label class="form-check-label" for="formCheck-1" value="4">Japanese</label></div>
+                            </div>
+                            <div class="mb-3"><label class="form-label">Work Type</label>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="work_type" id="formCheck-7" value="1"><label class="form-check-label" for="formCheck-4">Desk based</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="work_type" id="formCheck-8" value="2"><label class="form-check-label" for="formCheck-4">Active(Includes more than 50% movement)</label></div>
+                                <!--div class="form-check"><input class="form-check-input" type="radio" name="work_type" id="formCheck-8" value="3"><label class="form-check-label" for="formCheck-4">Kinda both</label></div-->
+                            </div>
+                            <div class="mb-3"><label class="form-label">Working Hours (per week)</label>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="working_hour" id="formCheck-9" value="1"><label class="form-check-label" for="formCheck-9">&lt;30</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="working_hour" id="formCheck-11" value="2"><label class="form-check-label" for="formCheck-9">30 - 40</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="working_hour" id="formCheck-10" value="3"><label class="form-check-label" for="formCheck-9">&gt;40</label></div>
+                            </div>
+                            <div class="mb-3"><label class="form-label">How much time(in hrs) could you devote into activities? (per week)</label>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="time_devote" id="formCheck-9" value="1"><label class="form-check-label" for="formCheck-9">1</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="time_devote" id="formCheck-11" value="2"><label class="form-check-label" for="formCheck-9">5</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="time_devote" id="formCheck-10" value="3"><label class="form-check-label" for="formCheck-9">10</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="time_devote" id="formCheck-101" value="4"><label class="form-check-label" for="formCheck-9">15</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="time_devote" id="formCheck-120" value="5"><label class="form-check-label" for="formCheck-9">20</label></div>
+                            </div>
+                            <!--div class="mb-3"><label class="form-label">How much time(in hrs) could you devote into activities? (per week)</label><input class="form-range form-control" type="range" name="time_devote" min="1" max="20" step="5" value="5"></div-->
+                            <div class="mb-3"><label class="form-label">Age group</label>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="age_group" id="formCheck-12" value="1"><label class="form-check-label" for="formCheck-9">&lt;20</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="age_group" id="formCheck-14" value="2"><label class="form-check-label" for="formCheck-9">20 - 40</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="age_group" id="formCheck-13" value="3"><label class="form-check-label" for="formCheck-9">40 -60</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" name="age_group" id="formCheck-12" value="4"><label class="form-check-label" for="formCheck-9">60+</label></div>
+                            </div>
+                            <div class="mb-3"><button class="btn btn-primary" type="submit">Submit</button></div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © HackInTouch 2021</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='/js/bs-init.js') }}"></script>
+    <script src="{{ url_for('static', filename='/js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='/js/theme.js') }}"></script>
+</body>
+
+</html>
