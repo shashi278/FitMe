@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 import os
+import json
 
 UPLOAD_FOLDER = 'tmp/wordbase-images'
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg', 'png'])
@@ -136,7 +137,19 @@ def dashboard():
 
     user_category = category_vec.index(max(category_vec))+1
     print("Category: {}".format(user_category))
-    return render_template("dashboard.html")
+
+    with open("public/categories.json", "r") as jf:
+        categories = json.load(jf)
+
+        if user_category < 5:
+            cat_data = categories[str(user_category)]
+        else:
+            cat_data = categories["1"]
+        
+        
+
+
+    return render_template("recommendations.html", {"cat_data": cat_data})
 
 
 if __name__ == "__main__":

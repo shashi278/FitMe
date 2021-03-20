@@ -1,0 +1,64 @@
+{
+    "1": {
+        "activities": [
+            ["Community Gardening", "", "/img/activitiesBG/gardening.webp"],
+            ["Food Sharing community", "", ""]
+            ],
+        "events":[
+            ["Visiting farmers market", "", ""],
+            ["Joining a cooking event", "", ""]
+            ],
+        "suggestions": [
+            ["Tips on how to start gardening", "", ""],
+            ["Tips about how to balanca nutrition", "", ""]
+            ]
+    },
+    "2" : {
+        "activities": [
+            ["Join a gym", "", ""],
+            ["Get a personal trainer", "", ""],
+            ["Join running group", "", ""],
+            ["Vitaparkour", "", ""]
+            ],
+        "events":[
+            ["Join a marathon-preo group", "", ""],
+            ["Join local triathlon", "", ""]
+            ],
+        "suggestions": [
+            ["Get nutrition tips", "", ""],
+            ["Visit local store to purchase gym equipment", "", ""]
+            ]
+    } ,
+    "3" : {
+        "activities": [
+            ["Go for a hike", "", ""],
+            ["Jogging", "", ""],
+            ["Join a dog-walking group", "", ""],
+            ["Vitaparkour", "", ""]
+            ],
+        "events":[
+            ["Join a local runners team", "", ""],
+            ["Invite a friend for a walk with their pet", "", ""]
+            ],
+        "suggestions": [
+            ["Discover our guide for bird watchers", "", ""],
+            ["Read our hiking tips", "", ""]
+            ]
+    },
+    "4" : {
+        "activities": [
+            ["Play PokemonGO", "", ""],
+            ["Geocaching", "", ""],
+            ["Do housechores for extra points", "", ""]
+            ],
+        "events":[
+            ["Join a local sports team", "", ""],
+            ["Sign up for a volleyball tournament", "", ""]
+            ],
+        "suggestions": [
+            ["Change your daily commute to cycling", "", ""],
+            ["See our suggestions for events in the area", "", ""]
+            ]
+    }
+
+}
