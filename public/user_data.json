@@ -1,0 +1,16 @@
+{
+    "user_detail": {
+        "shashiranjankv@gmail.com": {
+            "email": "shashiranjankv@gmail.com",
+            "given_name": "Shashi",
+            "picture": "https://lh3.googleusercontent.com/a-/AOh14Gg_tPDvAiMLHzsuwVMucMXpRUnJaV9YYTl8AeK9JA=s96-c",
+            "category": 1
+        },
+        "shashir@iiitkalyani.ac.in": {
+            "email": "shashir@iiitkalyani.ac.in",
+            "given_name": "Shashi",
+            "picture": "https://lh3.googleusercontent.com/a-/AOh14Ggk-XZneifu5S9TTqTlR4szIrvY7mccSr6J88I4=s96-c",
+            "category": 1
+        }
+    }
+}

@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Register - HackInTouch</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <title>Register - FitMe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/fonts/fontawesome5-overrides.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/Contact-Form-Clean.css') }}">
 </head>
 
 <body class="bg-gradient-primary">
@@ -19,7 +19,7 @@
             <div class="card-body p-0">
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-flex">
-                        <div class="flex-grow-1 bg-register-image" style="background: url(&quot;assets/img/fitness/victor-freitas-WvDYdXDzkhs-unsplash.jpg&quot;) center / cover;"></div>
+                        <div class="flex-grow-1 bg-register-image" style="background: url({{ url_for('static', filename='/img/fitness/victor-freitas-WvDYdXDzkhs-unsplash.jpg') }}) center / cover;"></div>
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
@@ -36,11 +36,13 @@
                                     <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Password" name="password"></div>
                                     <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Repeat Password" name="password_repeat"></div>
                                 </div><button class="btn btn-primary d-block btn-user w-100" type="submit">Register Account</button>
-                                <hr><a class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button"><i class="fab fa-google"></i>&nbsp; Register with Google</a><a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button"><i class="fab fa-facebook-f"></i>&nbsp; Register with Facebook</a>
+                                <hr>
+                                <a class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button" href="{{ url_for('login_google') }}"><i class="fab fa-google"></i>&nbsp; Register with Google</a>
+                                <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button"><i class="fab fa-facebook-f"></i>&nbsp; Register with Facebook</a>
                                 <hr>
                             </form>
                             <div class="text-center"><a class="small" href="forgot-password.html">Forgot Password?</a></div>
-                            <div class="text-center"><a class="small" href="index.html">Already have an account? Login!</a></div>
+                            <div class="text-center"><a class="small" href="{{ url_for('index') }}">Already have an account? Login!</a></div>
                         </div>
                     </div>
                 </div>
@@ -49,9 +51,9 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="{{ url_for('static', filename='/js/bs-init.js') }}"></script>
+    <script src="{{ url_for('static', filename='/js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='/js/theme.js') }}"></script>
 </body>
 
 </html>
