@@ -22,15 +22,17 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}"><i class="fas fa-home"></i><span>Home</span></a></li>
-                    
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('profile') }}"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}"><i class="fas fa-home"></i><span>Reccomendations</span></a></li>
                     <li class="nav-item"><a class="nav-link active" href="{{ url_for('activity') }}"><i class="fas fa-table"></i><span>Your Activities</span></a></li>
-                </ul>
+               
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+ </ul>
                 <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
             </div>
         </nav>
+
+
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
@@ -66,10 +68,10 @@
                     </div>
 
                     <div class="container-fluid">
-                        <h3 class="text-dark mb-4">Activity's list</h3>
+                        <h4 style="text-align: center;">Activity's list</h4>
                         <div class="card shadow">
                             <div class="card-header py-3">
-                                <p class="text-primary m-0 fw-bold">Completed activities</p>
+                                <p class="text-primary m-0 fw-bold">Your upcoming events:</p>
                             </div>
                             <div class="card-body">
                                 <div class="row">
@@ -112,7 +114,7 @@
                                             </tr>
                                             <tr>
                                                 <td>#3</td>
-                                                <td>Cook a healthy meal for family or friends with our seasonal recepie</td>
+                                                <td>Cook a healthy meal for family or friends</td>
                                                 <td>1</td>
                                                 <td>Your home</td>
 
@@ -161,7 +163,7 @@
                             <div class="col-lg-12 mb-4">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="text-primary fw-bold m-0">Activities you signed up for:</h6>
+                                    <h6 class="text-primary fw-bold m-0">Completed activities:</h6>
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
@@ -170,7 +172,7 @@
                                                 <h6 class="mb-0"><strong>Local Swimming Practice</strong></h6><span class="text-xs">Monday 18.00</span>
                                             </div>
                                             <div class="col-auto">
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1"></label></div>
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" checked><label class="form-check-label" for="formCheck-1"></label></div>
                                             </div>
                                         </div>
                                     </li>
@@ -180,7 +182,7 @@
                                                 <h6 class="mb-0"><strong>Cook a healthy meal with your family</strong></h6><span class="text-xs">Wednesday, evening</span>
                                             </div>
                                             <div class="col-auto">
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2"></label></div>
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" checked id="formCheck-2"><label class="form-check-label" for="formCheck-2"></label></div>
                                             </div>
                                         </div>
                                     </li>
@@ -190,7 +192,7 @@
                                                 <h6 class="mb-0"><strong>Cycle to work</strong></h6><span class="text-xs">Friday</span>
                                             </div>
                                             <div class="col-auto">
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3"></label></div>
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" checked id="formCheck-3"><label class="form-check-label" for="formCheck-3"></label></div>
                                             </div>
                                         </div>
                                     </li>

@@ -23,12 +23,12 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-
-                    <li class="nav-item"><a class="nav-link active" href="{{ url_for('home') }}"><i class="fas fa-home"></i><span>Home</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('profile') }}"><i class="fas fa-user"></i><span>Profile</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('activity') }}"><i class="fas fa-table"></i><span>Your Activities</span></a></li>
-                </ul>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('profile') }}"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                  <li class="nav-item"><a class="nav-link active" href="{{ url_for('home') }}"><i class="fas fa-home"></i><span>Reccomendations</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('activity') }}"><i class="fas fa-table"></i><span>Your Activities</span></a></li>
+             
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+</ul>
                 <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
             </div>
         </nav>
@@ -47,7 +47,7 @@
                 {% if cat_data %}
       
 
-                    <h3 class="text-dark mb-1" style="font-size: 24px;">Activities</h3>
+                    <h4 class="mb-1" style="font-size: 24px;">Activities</h4>
                     <div class="col">
                         <div class="row">
 
